@@ -1,0 +1,61 @@
+* {
+    border: 1px red dotted;
+    box-sizing: border-box;
+}
+
+@font-family {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+header {
+    background: lightgrey;
+}
+
+h1 {
+    font-size: 1em;
+    font-family: 'Roboto';
+}
+
+.name {
+    font-size: 1.2em;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.intro img {
+    width: 62.5%;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    background: yellow;
+    display: inline-block;
+    width: 100%;
+}
+
+.portfolio {
+    background: lightblue;
+}
+
+.project img {
+    width: 90.625%;
+}
+
+footer {
+    background: pink;
+}
