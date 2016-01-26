@@ -1,10 +1,20 @@
-
 /* ========== GENERAL STYLES ========== */
 
-}* {
+* {
     border: 1px red dotted; /* for testing */
     box-sizing: border-box;
 }
+
+h1 {
+    font-size: 1em;
+    font-family: 'Roboto';
+}
+
+
+a {
+    text-decoration: none;
+}
+
 
 /* ========== FONTS ========== */
 
@@ -12,16 +22,14 @@
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-/* ========== HEADER ========== */
+.wrapper {
+    width: 100%;
+}
 
+/* ========== HEADER ========== */
 
 header {
     background: lightgrey; /* for testing */
-}
-
-h1 {
-    font-size: 1em;
-    font-family: 'Roboto';
 }
 
 .name {
@@ -30,21 +38,8 @@ h1 {
     text-transform: uppercase;
 }
 
-.section-title {
-    font-size: 1.1em;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-}
-
-.intro img {
-    width: 62.5%;
-}
-
 .main-nav {
-    text-align: center;
+    text-align: center;    
 }
 
 .main-nav li {
@@ -52,8 +47,20 @@ a {
     list-style: none;
     text-align: center;
     background: yellow;
-    display: inline-block;
+    display: inline-block
     width: 100%;
+}
+
+
+/* ========== MAIN CONTENT ========== */
+
+.section-title {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.intro img {
+    width: 62.5%;
 }
 
 .portfolio {
@@ -64,11 +71,13 @@ a {
     width: 90.625%;
 }
 
+
 /* ========== FOOTER ========== */
 
 footer {
     background: pink; /* for testing */
 }
+
 
 /* ========== MEDIA QUERIES ========== */
 
