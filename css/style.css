@@ -244,6 +244,10 @@ footer a:visited {
         background: #b4a8d2;
     }
     
+    .main-nav li:active {
+    box-shadow: none;
+}
+    
     .main-nav a {
         color: white;
     }
