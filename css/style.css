@@ -85,6 +85,10 @@ header {
     color: #675a85;
 }
 
+.main-nav li:active {
+    box-shadow: 2px 2px 4px rgba(98,111,126,0.7);
+}
+
 .main-nav a:visited {
     color: #b4a8d2;
 }
