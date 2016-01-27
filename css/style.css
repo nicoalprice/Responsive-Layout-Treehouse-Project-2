@@ -348,11 +348,11 @@ footer a:visited {
     /* -- desktop contact -- */
     
     .contact {
-        font-size: 1.2em;
         padding-bottom: 72px;
     }
     
     .contact p {
+        font-size: 1.2em;
         padding-bottom: 10px;
         width: 50%;
     }
