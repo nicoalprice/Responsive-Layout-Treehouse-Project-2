@@ -5,7 +5,7 @@
 /* ========== GENERAL STYLES ========== */
 
 * {
-/*    border: 1px red dotted;  for testing */
+    border: 1px red dotted;  /* for testing */
     box-sizing: border-box;
 }
 
@@ -206,13 +206,13 @@ footer a:visited {
 
 @media (min-width: 768px) {
     
+    /* -- tablet header -- */
+    
     .main-nav {
-       /* make nav links display in a horizontal line */
         display: inline-flex;
         width: 50%;
     }
     
-        /* change text an background color of menu */
     .main-nav li {
         background: #b4a8d2;
     }
@@ -224,7 +224,8 @@ footer a:visited {
     .main-nav a:visited {
         color: #675a85;
     }
-
+    
+    /* -- tablet intro -- */
 
     .intro p {
         display: inline-block;
@@ -247,6 +248,8 @@ footer a:visited {
         width: 40%;
 }
     
+    /* -- tablet portfolio -- */
+     
     .portfolio-projects {
         display: flex;
         flex-wrap: wrap;
@@ -259,6 +262,24 @@ footer a:visited {
 /* ----- Desktops -----*/
 
 @media (min-width: 1024px) {
+    
+    
+    /* -- desktop header -- */
+    
+    .name   {
+        float: left;
+        margin: 0;
+    }
+    
+    .main-nav {
+        float: right;
+    }
+    
+    .intro {
+        padding-top: 60px;
+    }
+    
+    /* -- desktop portfolio -- */
     
     .portfolio-projects {
         display: flex;
