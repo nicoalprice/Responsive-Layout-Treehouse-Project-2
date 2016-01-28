@@ -38,10 +38,6 @@ img {
     padding: 0;
 }
 
-.video {
-    height: 100%;
-    background: inherit;
-}
 
 /* ========== FONTS ========== */
 
@@ -81,17 +77,18 @@ header {
     text-align: center;
     display: inline-block;
     width: 90.625%;
-    margin-bottom: .4em;
     padding: 8px 0;
+    margin-bottom: .4em;
     border-radius: 5px;
 }
 
 .main-nav a {
     color: #675a85;
+    padding: 4px 10px; /* increase size of clickable area */
 }
 
 .main-nav li:active {
-    box-shadow: 2px 2px 4px rgba(98,111,126,0.7);
+    box-shadow: 1px 1px 6px rgba(98,111,126,0.3) inset;
 }
 
 .main-nav a:visited {
@@ -182,8 +179,8 @@ header {
 }
 
 .contact p {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #phone,
@@ -295,7 +292,6 @@ footer a:visited {
     
     .project {
         max-width: 50%;
-        align-self: center;
     }
     
     /* -- tablet contact -- */
@@ -304,6 +300,7 @@ footer a:visited {
         width: 75%;
         margin: auto;
         padding-bottom: 10px;
+        font-size: 1.2em;
     }
     
     .contact p:nth-child(2) {
@@ -427,13 +424,7 @@ footer a:visited {
     }
     
     .contact p {
-        font-size: 1.2em;
-        padding-bottom: 10px;
         width: 50%;
-    }
-    
-    .contact p:nth-child(2) {
-        padding-bottom: 60px;
     }
     
     .contact p:last-child {
